@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.header{
+    background-color: #34465c;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo{
+    width:120px;
+}
+
+.side-bar{
+    display: flex;
+    height:60px;
+    padding: auto;
+}
+
+.menu > ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menu > ul > li{
+    display: flex;
+    font-size:15px;
+    color: #fff;
+    text-transform: uppercase;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.menu>ul>li:hover .sub-menu{
+    display: block;
+}
+
+.sub-menu {
+    position: absolute;
+    border: none;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    left: auto;
+    margin-top: 0.25rem;
+    padding: 0;
+    right: 0;
+    top: 100%;
+    width: 200px;
+    display: none;
+    background-color:#fff;
+}
+
+.sub-menu li{
+    color: #464646!important;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+}
+
+.sub-menu li:hover{
+    background-color: #c4c4c4;
+    color: #fff;
+}
+
+.icon{
+    font-size: 20px;
+ }
+
+ .cart{
+    position: relative;
+    align-items: center;
+    padding-right: 30px;
+    color: #fff;
+    font-size:75%;
+}
+
+.avatar,.cart{
+    display: flex;
+    align-self: center;
+}
+
+.cart-number{
+    display: inline-block;
+    position: absolute;
+    background-color: #26a69a;
+    left: 20px;
+    top: -10px;
+    border-radius: 5px;
+    padding: .25em 0.4em;
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+i{
+    color: #fff;
+}
+
+.image {
+    border-radius: 100%;
+}
+
